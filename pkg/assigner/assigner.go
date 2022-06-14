@@ -1,7 +1,7 @@
 package assigner
 
 import (
-	"bitbucket.org/ssinbeti/crm-common/pkg/curl"
+	"github.com/sm0kernone/crm-common/pkg/curl"
 )
 
 type AssignType string

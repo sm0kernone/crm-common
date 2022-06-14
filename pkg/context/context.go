@@ -1,8 +1,8 @@
 package context
 
 import (
-	"bitbucket.org/ssinbeti/crm-common/models"
-	"bitbucket.org/ssinbeti/crm-common/pkg/middleware"
+	"github.com/sm0kernone/crm-common/models"
+	"github.com/sm0kernone/crm-common/pkg/middleware"
 	"github.com/labstack/echo/v4"
 )
 

@@ -1,7 +1,7 @@
 package models
 
 import (
-	"bitbucket.org/ssinbeti/crm-common/pkg/utils"
+	"github.com/sm0kernone/crm-common/pkg/utils"
 	"errors"
 	"fmt"
 )

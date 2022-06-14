@@ -1,7 +1,7 @@
 package session
 
 import (
-	"bitbucket.org/ssinbeti/crm-common/models"
+	"github.com/sm0kernone/crm-common/models"
 	"encoding/json"
 	"github.com/go-redis/redis"
 	"github.com/labstack/gommon/log"

@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"bitbucket.org/ssinbeti/crm-common/models"
+	"github.com/sm0kernone/crm-common/models"
 	"github.com/labstack/echo/v4"
 	"net/http"
 	"strconv"

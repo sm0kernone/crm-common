@@ -1,9 +1,9 @@
 package segmentation
 
 import (
-	"bitbucket.org/ssinbeti/crm-common/pkg/config"
-	"bitbucket.org/ssinbeti/crm-common/pkg/curl"
-	"bitbucket.org/ssinbeti/crm-common/pkg/logger"
+	"github.com/sm0kernone/crm-common/pkg/config"
+	"github.com/sm0kernone/crm-common/pkg/curl"
+	"github.com/sm0kernone/crm-common/pkg/logger"
 	"encoding/json"
 	"fmt"
 )

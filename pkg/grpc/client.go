@@ -1,7 +1,7 @@
 package grpc
 
 import (
-	"bitbucket.org/ssinbeti/crm-common/pkg/config"
+	"github.com/sm0kernone/crm-common/pkg/config"
 	"github.com/cenkalti/backoff"
 	"google.golang.org/grpc"
 	"log"

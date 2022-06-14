@@ -1,7 +1,7 @@
 package db
 
 import (
-	"bitbucket.org/ssinbeti/crm-common/pkg/logger"
+	"github.com/sm0kernone/crm-common/pkg/logger"
 	"database/sql"
 	"errors"
 	"sync"

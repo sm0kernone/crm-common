@@ -1,8 +1,8 @@
 package config
 
 import (
-	"bitbucket.org/ssinbeti/crm-common/pkg/aws"
-	"bitbucket.org/ssinbeti/crm-common/pkg/curl"
+	"github.com/sm0kernone/crm-common/pkg/aws"
+	"github.com/sm0kernone/crm-common/pkg/curl"
 	"fmt"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/go-redis/redis"

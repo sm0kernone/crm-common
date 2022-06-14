@@ -1,7 +1,7 @@
 package freshwork
 
 import (
-	"bitbucket.org/ssinbeti/crm-common/pkg/curl"
+	"github.com/sm0kernone/crm-common/pkg/curl"
 )
 
 func UpdateTicket(data map[string]interface{}, url, username, password string) ([]byte, int, error) {

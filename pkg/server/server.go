@@ -1,8 +1,8 @@
 package server
 
 import (
-	"bitbucket.org/ssinbeti/crm-common/pkg/config"
-	"bitbucket.org/ssinbeti/crm-common/pkg/logger"
+	"github.com/sm0kernone/crm-common/pkg/config"
+	"github.com/sm0kernone/crm-common/pkg/logger"
 	"github.com/go-playground/validator/v10"
 	"github.com/labstack/echo/v4"
 	"net/http"
