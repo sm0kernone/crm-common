@@ -34,6 +34,7 @@ type CreateEvaluationReq struct {
 	Timezone    string   `json:"timezone"`
 	Username    string   `json:"username"`
 	Evaluations []string `json:"evaluations"`
+	ProjectUUID string `json:"project_uuid"`
 }
 
 type ClientStruct struct {
