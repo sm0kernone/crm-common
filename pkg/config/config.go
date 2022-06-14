@@ -421,6 +421,7 @@ type EvaluationEvent struct {
 	ContentType string              `yaml:"content_type"`
 	Headers     map[string]string   `yaml:"headers"`
 	Evaluation  string              `yaml:"evaluation"`
+	ProjectUUID string 				`yaml:"project_uuid"`
 	Type        EvaluationEventType `yaml:"type"`
 }
 
