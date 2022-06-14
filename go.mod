@@ -1,4 +1,4 @@
-module bitbucket.org/ssinbeti/crm-common
+module github.com/sm0kernone/crm-common
 
 go 1.14
 
