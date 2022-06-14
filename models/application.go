@@ -1,7 +1,7 @@
 package models
 
 type Applications struct {
-	Id                      int               `sql:"id1" json:"id,omitempty" view:"hidden" type:"int,disabled" label:"ID"`
+	Id                      int               `sql:"id" json:"id,omitempty" view:"hidden" type:"int,disabled" label:"ID"`
 	CrmId                   int               `sql:"crm_id" json:"crm_id,omitempty" view:"hidden" type:"int,disabled" label:"CRM ID" bson:"crm_id"`
 	CreatedUserCrmId        int               `sql:"created_user_crm_id" view:"watch" json:"created_user_crm_id,omitempty" label:"Created User CRM ID" related:"users" type:"autocomplete,int" bson:"created_user_crm_id"`
 	AssignedUserCrmId       int               `sql:"assigned_user_crm_id" view:"watch" json:"assigned_user_crm_id,omitempty" label:"Assigned To" group:"short,details" type:"autocomplete,int" related:"users" bson:"assigned_user_crm_id"`
