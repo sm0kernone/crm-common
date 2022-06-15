@@ -88,6 +88,7 @@ type CreateUpdateAgentRequest struct {
 	Role        string   `json:"role"`
 	Permissions []string `json:"permissions"`
 	DeletedAt   int      `json:"deleted_at,omitempty"`
+	ProjectUUID string 	 `json:"project_uuid"`
 }
 
 type CreateAgentResp struct {
